@@ -1,9 +1,9 @@
-export class Component {
-    constructor (props	=	{})	{
-        this.props = props;
-    }
+export	class	Component	{
+    constructor(props	=	{})	{
+    this.props	=	props;
+}
 
-    render() {
-        throw new Error("Method render() belum di buat di class turuan");
+render()	{
+        throw	new	Error("Method	render()	belum	dibuat	di	class	turunannya!");
     }
 }

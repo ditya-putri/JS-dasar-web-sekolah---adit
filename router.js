@@ -13,10 +13,9 @@ export	function	router()	{
 
     if	(path	===	"")	{
         path	=	"/home";
-}
+    }
+    const	PageClass	=	routes[path]	||	HomePage;
 
-const	PageClass	=	routes[path]	||	HomePage;
-
-const	page	=	new	PageClass();
-document.getElementById("app").innerHTML	=	page.render();
+    const	page	=	new	PageClass();
+    document.getElementById("app").innerHTML	=	page.render();
 }
