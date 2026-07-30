@@ -4,7 +4,7 @@ export class AboutPage extends Page {
     return `
       <main>
         <h1>Tentang Sekolah</h1>
-        <p>SMK Adit</p>
+        <p>SMK Adit adalah sekolah menengah kejuruan yang berlokasi di Jakarta. Sekolah ini menyediakan pendidikan dan pelatihan untuk siswa dalam bidang teknologi informasi dan komunikasi.</p>
       </main>
     `;
   }
